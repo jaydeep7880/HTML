@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one
+        {
+            height: 200px;
+            width: 200px;
+            background: lightblue;
+            margin: 200px auto;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .two
+        {
+            height: 200px;
+            width: 200px;
+            background: rgba(0,0,0,.95);
+            position: absolute;
+            top: 200px;
+            left: -200px;
+            opacity: 0;
+        }
+
+        .three
+        {
+            height: 200px;
+            width: 200px;
+            background: rgba(0,0,0,.95);
+            position: absolute;
+            top: -200px;
+            left: 200px;
+            opacity: 0;
+        }
+
+        .one:hover .two
+        {
+            opacity: 1;
+            top: 0;
+            left: 0;
+            transition: .5s;
+            background: rgba(0,0,0,.0);          
+        }
+
+        .one:hover .three
+        {
+            opacity: 1;
+            top: 0;
+            left: 0;
+            transition: .5s;
+            background: rgba(0,0,0,.0);          
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+
+        <div class="two">
+
+        </div>
+
+        <div class="three">
+
+        </div>
+    </div>
+</body>
+</html>

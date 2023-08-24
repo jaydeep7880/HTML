@@ -1,0 +1,75 @@
+.part
+      {
+        background: black;
+        padding: 50px;
+        /* text-align: center; */
+       
+       
+      }
+      ul 
+      {
+        margin: 0;
+        padding: 0;
+        position: relative;
+      }
+
+      li 
+      {
+        display: inline;
+        margin-right: 30px;
+        position: relative;
+        border-radius: 50px;
+       
+        font-size: 20px;
+      }
+
+      a 
+      {
+        text-decoration: none;
+        color:white;
+        
+      }
+
+      li::after 
+      {
+        content: "";
+
+        height: 6px;
+        width: 0%;
+        background-color: aquamarine;
+        position: absolute;
+        top:100%;
+        left:0;
+        transition: .31s;
+      }
+
+      li:hover::after 
+      {
+        width: 100%;
+      }
+
+      .bascat
+      {
+        height:180px ;
+        width: 300px;
+        position: absolute;
+        top: -30px;
+        left: 1000px;
+      }
+
+      .nil
+      {
+        height: 100px;
+        width: 200px;
+        background-color: red;
+        
+      }
+
+      .lin .nil{
+        opacity: 0;
+      }
+
+      .lin:hover .nil
+      {
+        opacity: 1;
+      }

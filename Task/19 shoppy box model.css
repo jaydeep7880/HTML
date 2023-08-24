@@ -1,0 +1,417 @@
+body *{
+    margin: 0;
+    padding: 0;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+ 
+.header li{
+     display: inline; 
+     margin-right: 100px;
+     
+}
+
+.header
+{
+    padding: 20px;
+}
+
+.main
+{
+    display: flex;
+    padding: 30px;
+}
+
+.second
+{
+   width: 33.33%;
+   text-align: center;
+}
+
+
+.navbar
+{
+    padding: 20px;
+}
+
+.navbar li{
+    display: inline; 
+    margin-right: 100px;
+    
+}
+
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.pad
+{
+    margin: 50px;
+}
+
+.slider
+{
+    height: 360px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    line-height: 50px;
+    padding: 100px;
+    
+    
+}
+button{
+    height: 20px;
+    width: 100px;
+}
+
+.contener
+{
+    display: flex;
+    padding: 50px;
+    gap: 20px;
+}
+
+.contener1
+{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifty
+{
+    height: 400px;
+    display: flex;
+}
+
+.one,.two
+{
+    width: 50%;
+}
+
+.two
+{
+    padding-top: 60px;
+}
+
+.three
+{
+    height: 300px;
+    width: 80%;
+    padding: 20px;
+}
+.three p{
+    padding: 8px;
+}
+
+.treeinone
+{
+    display: flex;
+    height: 160px;
+    padding-top: 20px;
+}
+
+.first1
+{
+    width: 33.33%;
+}
+
+.first1 p
+{
+    text-align: center;
+}
+
+.p1
+{
+    text-align: center;
+}
+
+.p1 h1
+{
+    padding: 50px;
+}
+
+.trending
+{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.tre1
+{
+    height: 600px;
+    width: 45%;
+}
+
+.tre2,.tre3
+{
+    height: 290px;
+}
+
+.tre3
+{
+    margin-top: 20px;
+}
+
+.hover
+{
+    height: 400px;
+    background-color: white;
+    display: flex;
+}
+
+.hover1
+{
+    height: 100%;
+    width: 50%;
+}
+
+.flip
+{
+    height: 780px;
+    display: flex;
+    justify-content: center;
+}
+
+.flip2 h1
+{
+   text-align: center;
+}
+
+.flip2
+{
+    height: 720px;
+    width: 80%;
+    
+}
+
+.flip2 ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flip2 li{
+    display: inline; 
+}
+
+.fliper1
+{
+    height: 320px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fliper2
+{
+    height: 320px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    
+}
+
+.div1
+{
+    height: 318px;
+    width: 22%;
+}
+
+.transperent
+{
+    height: 400px;
+}
+
+.effect
+{
+    height: 200px;
+    display: flex;
+    padding-top: 50px;
+}
+
+.part
+{
+    height: 70%;
+    width: 25%;
+    padding: 20px 0 0 20px ;
+    display: flex;
+}
+
+.part p
+{
+    height: 20px;
+    margin-left: 20px;
+}
+
+.color1
+{
+    height: 60px;
+    width: 60px;
+}
+
+.part .color2
+{
+    height: 60px;
+    width: 80%;
+}
+
+.part p
+{
+    margin-top: 8px;
+}
+
+.information
+{
+    /* display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 30px; */
+}
+
+.info12
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.foar
+{
+    height: 400px;
+    width: 22%;
+}
+
+.foar #font{
+    font-size: 30px;
+}
+
+.icon6
+{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.icon7
+{
+    height: 30px;
+    width: 10%;
+}
+
+.foar .padl
+{
+    padding: 5px;
+}
+
+.fut
+{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    gap: 20px;
+}
+
+.fut2
+{
+    width: 70%;
+    padding-top: 5px;
+}
+
+.fut2 h4
+{
+    margin-top: 5px;
+}
+
+.fut p
+{
+    height: 60px;
+    width: 50px;
+}
+
+.picture
+{
+    height: 121px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.imegies
+{
+    height: 80px;
+    width: 30%;
+}
+
+.fotter
+{
+    height: 80px;
+    display: flex;
+}
+
+.last
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.last h1
+{
+    width: 100%;
+}
+
+.last a
+{
+    width: 20%;
+}
+
+.search
+{
+    height: 40px;
+    width: 80%;
+    padding-left: 20px;
+}
+
+.search1
+{
+    height: 40px;
+    width: 20%;
+}
+
+.search1 a{
+    border: none;
+}
+
+ .lastone h3{
+    padding: 30px;
+    text-align: center;
+}

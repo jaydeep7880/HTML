@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a
+        {
+            height: 100px;
+            width: 100px;
+            /* background-color: aquamarine; */
+            display: block;
+            margin: 100px auto;
+            position: relative;
+            transition: 1s;
+            transform-style: preserve-3d;
+        }
+
+        .p
+        {
+            height: 100%;
+            width: 100%;
+            /* height: inherit;
+            width: inherit; */
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: rotateX(0deg) translateZ(50px);
+            backface-visibility: hidden;
+        }
+
+        .q
+        {
+            height: 100%;
+            width: 100%;
+            /* height: inherit;
+            width: inherit; */
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: rotateX(90deg) translateZ(50px);
+            backface-visibility: hidden;
+        }
+
+        .a:hover 
+        {
+            transform: rotateX(-90deg) translateZ(0px);
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+
+        <div class="p">
+            <img  src="img/pxfuel.jpg" alt="" height="100%" width="100%">
+        </div>
+
+        <div class="q">
+            <img  src="img/pexels-photo-268533.jpeg" alt="" height="100%" width="100%">
+        </div>
+    </div>
+</body>
+</html>

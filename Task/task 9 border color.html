@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a
+        {
+            height: 600px;
+            width: 600px;
+            background-color: gray;
+            margin: 60px auto;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .b
+        {
+            height: 1000px;
+            width: 1000px;
+            background: linear-gradient(red,lime,blue,green,yellow);
+            position: absolute;
+            top: -200px;
+            left: -200px;
+            transform: rotate(-360deg);
+            transition: 2s;
+        }
+
+        .c
+        {
+            height: 580px;
+            width: 580px;
+            background-color: black;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+        .a:hover .b
+        {
+            transform: rotate(360deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+
+        <div class="b">
+
+        </div>
+
+        <div class="c">
+
+        </div>
+    </div>
+</body>
+</html>

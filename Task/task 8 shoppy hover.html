@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .a
+        {
+            height: 350px;
+            width: 700px;
+            background: url(img/shoes.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-position: -50px 0px;
+            transition: .5s;
+            border: 10px solid rgba(255,240,200,0.5);
+            transform: translate(800px,10px);
+        }
+
+        .a:hover
+        {
+           background-position: 0px 0px;
+        }
+
+        .b
+        {
+            height:260px;
+            width: 500px;
+            /* background: lightblue; */
+            border: 10px solid white;
+            opacity: 0;
+            margin-left: -100px;
+            transition: .5s;
+            color: white;
+            font-size: 30px;
+            padding: 160px 0 0 220px;
+
+        }
+
+        .a:hover .b
+        {
+            opacity: 1;
+            margin-left: 0px;
+        }
+
+            /* ************************************* */
+
+        .c
+        {
+            height: 350px;
+            width: 700px;
+            background: url(img/shooes2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-position: -50px 0px;
+            transition: .5s;
+            border: 10px solid rgba(255,240,200,0.5);
+            transform: translate(800px,30px);
+        }
+
+        .c:hover
+        {
+           background-position: 0px 0px;
+        }
+
+        .d
+        {
+            height:260px;
+            width: 500px;
+            /* background: lightblue; */
+            border: 10px solid white;
+            opacity: 0;
+            margin-left: -100px;
+            transition: .5s;
+            color: white;
+            font-size: 30px;
+            padding: 160px 0 0 220px;
+        }
+
+        .c:hover .d
+        {
+            opacity: 1;
+            margin-left: 0px;
+        }
+
+
+        /* ******************************************* */
+
+
+        .e
+        {
+            height: 720px;
+            width: 600px;
+            background: url(img/dumy.jpg);
+            background-repeat: no-repeat;
+            background-size: 631px 701px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-position: -20px 0px;
+            transition: .4s;
+            border: 10px solid rgba(255,240,200,0.5);
+            transform: translate(100px,-690px);
+        }
+
+        .e:hover
+        {
+           background-position: 0px 0px; 
+        }
+
+        .f
+        {
+            height:600px;
+            width: 480px;
+            /* background: lightblue; */
+            border: 10px solid white;
+            opacity: 0;
+            margin-left: -100px;
+            transition: .5s;
+            color: white;
+            font-size: 30px;
+            padding: 160px 0 0 220px;
+        }
+
+        .e:hover .f
+        {
+            opacity: 1;
+            margin-left: 0px;
+        }
+    
+        span{
+            letter-spacing: 10px; 
+            word-spacing: 3px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="a">
+      
+        <div class="b">
+        <span>Up To</span> 55%
+        </div>
+    </div>
+
+    <div class="c">
+      
+        <div class="d">
+        <span>Up To</span> 55%
+        </div>
+    </div>
+
+
+    <div class="e">
+      
+        <div class="f">
+        <span>Up To</span> 55%
+        </div>
+    </div>
+</body>
+</html>

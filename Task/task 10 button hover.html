@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+          /* jab app margin se left yaa right yaa koi bhi side se margin lete he tab margin se div ke andar likhe content ko hover nahi laggta he hover use content ke niche aata he  isliye jabbhi hame content ke upar bhi hover karvana ho tab ham z index ka use karenge  */
+
+        .a
+        {
+            height: 50px;
+            width: 200px;
+            background: linear-gradient(to top,red,blue,yellow);
+            margin: 100px auto;
+            position: relative;
+            z-index: 0;
+            overflow: hidden;
+            text-align: center;
+            line-height: 50px;
+            border-radius: 40px 40px ;
+            color: white;
+            font-size: 20px;
+            /* overflow: hidden; */
+        }
+
+        .b
+        {
+            height: 50px;
+            width: 50px;
+            background: rgba(255,255,255,.90);
+            position: absolute;
+            top: 0px;
+            right: -260px;
+            z-index: -1;
+            transition: .90s;
+            transform: skew(-30deg);
+            /* margin-left: -200px;
+            opacity: 0;
+            transition: .5s; */
+        }
+
+        .a:hover .b
+        {
+            /* margin-left: 0px;
+            opacity: 1; */
+            right: 320px;
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        Hover Me
+        <div class="b">
+
+        </div>
+    </div>
+</body>
+</html>

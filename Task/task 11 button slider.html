@@ -1,0 +1,178 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+         #nik
+         {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: gray;
+            height: 80px;
+            font-size: 30px;
+         }
+
+        .a
+        {
+            display: inline-block;
+        }
+        
+        .m
+        {
+            height: 2px;
+            width: 70px;
+            background: red;
+            margin-left: -12px;
+            opacity: 0;
+            transition: .50s;
+        }
+
+        .a:hover .m{
+            margin-left: 0px;
+            opacity: 1;
+        }
+
+        .b
+        {
+            display: inline-block;
+        }
+
+        .n
+        {
+            height: 2px;
+            width: 70px;
+            background: red;
+            margin-left: -12px;
+            opacity: 0;
+            transition: .50s;
+        }
+
+        .b:hover .n{
+            margin-left: 0px;
+            opacity: 1;
+        }
+
+        .c
+        {
+            display: inline-block;
+        }
+
+        .l
+        {
+            height: 2px;
+            width: 70px;
+            background: red;
+            margin-left: -12px;
+            opacity: 0;
+            transition: .50s;
+        }
+
+        .c:hover .l{
+            margin-left: 0px;
+            opacity: 1;
+        }
+
+        .d
+        {
+            display: inline-block;
+        }
+
+        .k
+        {
+            height: 2px;
+            width: 70px;
+            background: red;
+            margin-left: -12px;
+            opacity: 0;
+            transition: .50s;
+        }
+
+        .d:hover .k{
+            margin-left: 0px;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="nik">
+        
+        <div class="a">
+            Home &nbsp;
+                <div class="m"></div>
+        </div>
+
+        <div class="b">
+            Home &nbsp;
+                <div class="n"></div>
+        </div>
+
+        <div class="c">
+            Home &nbsp;
+                <div class="l"></div>
+        </div>
+
+        <div class="d">
+            Home &nbsp;
+                <div class="k"></div>
+        </div>
+    </div>
+        
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main 
+        {
+            height: 80px;
+            width: 200px;
+            background: lightblue;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 80px;
+            margin: 100px auto;
+            position: relative;
+            z-index: 0;
+            overflow: hidden;
+        }
+        .effect 
+        {
+            height: 80px;
+            width: 200px;
+            background: lightcoral;
+            position: absolute;
+            top:0;
+            left:-100%;
+            z-index: -1;
+            transition: 1s;
+        }
+
+        .main:hover .effect 
+        {
+            left: 0;
+         
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="main">
+        Hover ME
+        <div class="effect"></div>
+    </div>
+
+    
+</body>
+</html>
