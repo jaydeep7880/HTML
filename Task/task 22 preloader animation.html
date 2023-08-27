@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *
+        {
+            box-sizing: border-box;
+        }
+
+        .main *
+        {
+            border-radius: 50%;
+            border: 10px solid transparent;
+
+        }
+
+        .main
+        {
+            height: 200px;
+            width: 200px;
+            /* background-color: coral; */
+            margin: 200px auto;
+            position: relative;
+
+        }
+        .f1
+        {
+            height: 200px;
+            width: 200px;
+            /* background-color: aquamarine; */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            animation: vivek1 1s linear infinite;
+            border-top: 10px solid yellow;
+        }
+
+        .f2
+        {
+            height: 150px;
+            width: 150px;
+            /* background-color: red; */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            animation: vivek2 1s linear infinite;
+            transform: translate(-50%,-50%);
+            border-top: 10px solid red;
+
+
+        }
+
+        .f3
+        {
+            height: 100px;
+            width: 100px;
+            /* background-color: cadetblue; */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%,-50%);
+            animation: vivek1 1s linear infinite;
+            border-top: 10px solid green;
+            
+        }
+
+        @keyframes vivek1
+        {
+            from{transform: translate(-50%,-50%) rotate(0deg);}
+            to{transform: translate(-50%,-50%) rotate(360deg);}
+        }
+
+        @keyframes vivek2
+        {
+            from{transform: translate(-50%,-50%) rotate(360deg);}
+            to{transform: translate(-50%,-50%) rotate(0deg);}
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+
+        <div class="f1"></div>
+        <div class="f2"></div>
+        <div class="f3"></div>
+    </div>
+</body>
+</html>
