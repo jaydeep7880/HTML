@@ -1,0 +1,79 @@
+.main
+{
+    height: 500px;
+    width: 800px;
+    border: 2px solid;
+    margin: 200px auto;
+}
+
+.main *
+{
+    height: 50px;
+    width: 50px;
+    border: 2px solid;
+    border-radius: 50%;
+    animation: bolls 2s linear infinite alternate-reverse;
+    
+}
+
+@keyframes bolls
+{
+    from{transform: translate(0px,0px);}
+    to{transform: translate(500px,20px);}
+    
+}
+
+.b2
+{
+   animation: second 2s linear infinite alternate;
+}
+
+@keyframes second
+{
+    from{transform: translate(0px,0px);}
+    to{transform: translate(300px,250px);}
+}
+
+.b3
+{
+   animation: third 2s linear infinite alternate;
+}
+
+@keyframes third
+{
+    from{transform: translate(0px,200px);}
+    to{transform: translate(600px,-50px);}
+}
+
+.b4
+{
+   animation: for 2s linear infinite alternate;
+}
+
+@keyframes for
+{
+    from{transform: translate(50px,30px);}
+    to{transform: translate(750px,-100px);}
+}
+
+.b5
+{
+   animation: fiv 2s linear infinite alternate;
+}
+
+@keyframes fiv
+{
+    from{transform: translate(150px,-20px);}
+    to{transform: translate(750px,200px);}
+}
+
+.b6
+{
+   animation: six 2s linear infinite alternate;
+}
+
+@keyframes six
+{
+    from{transform: translate(0px,150px);}
+    to{transform: translate(600px,-280px);}
+}
