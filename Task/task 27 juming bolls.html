@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a
+        {
+            height: 300px;
+            width: 300px;
+            /* background-color: antiquewhite; */
+            margin: 100px auto;
+            box-sizing: border-box;
+            animation: jaydeep 2s linear infinite alternate-reverse;
+        }
+        
+        .a1,.a2
+        {
+            height: 140px;
+            width: 100%;
+            /* border: 1px solid; */
+            display: flex;
+            gap: 50px;
+        }
+
+        .z1
+        {
+            height: 100px;
+            width: 100px;
+            background-color: brown;
+            border-radius: 50%;
+        }
+
+        @keyframes jaydeep
+        {
+            from{transform: rotate(0deg) scale(.3);}
+            to{transform: rotate(360deg) scale(1);}
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="a">
+        <div class="a1">
+
+            <div class="z1"></div>
+            <div class="z1"></div>
+
+        </div>
+
+        <div class="a2">
+
+            <div class="z1"></div>
+            <div class="z1"></div>
+        </div>
+
+    </div>
+</body>
+</html>
