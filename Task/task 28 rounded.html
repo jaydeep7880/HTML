@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a
+        {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background-color: gray;
+            border: 30px solid black;
+            border-top: 30px solid yellow;
+            margin: 100px auto;
+            animation: jaydeep 2s linear infinite;
+        }
+
+        .n,.n1
+        {
+            height: 30px;
+            width: 29px;
+            border-radius: 50%;
+            background-color: yellow;
+            transform: translate(3px,5px);
+        }
+
+        .n1
+        {
+            transform: translate(167px,-26px);
+        }
+
+        @keyframes jaydeep
+        {
+            from{transform: rotate(0deg);}
+            to{transform: rotate(360deg);}
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div class="n"></div>
+        <div class="n1"></div>
+    </div>
+</body>
+</html>
