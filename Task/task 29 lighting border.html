@@ -19,6 +19,7 @@
             margin: 200px auto;
             box-shadow: -3px 1px 15px white;
             animation: jaydeep 4s linear infinite;
+            position: relative;
         }
 
         .l
@@ -36,8 +37,11 @@
             width: 185px;
             background-color: black;
             border-radius: 50%;
-            transform: translate(659px,-392px);
             box-shadow: 0px 0px 20px red;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
         }
 
         @keyframes jaydeep
@@ -50,8 +54,9 @@
 <body>
     <div class="s">
         <div class="l"></div>
+        <div class="g"></div>
     </div>
     
-    <div class="g"></div>
+    
 </body>
 </html>
