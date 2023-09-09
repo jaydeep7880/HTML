@@ -5,62 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-    .x
-    {
-        height: 200px;
-        width: 200px;
-        background: conic-gradient(lightblue 0deg,lightblue 180deg,blue);
-        border-radius: 50%;
-        margin: 100px auto;
-        position: relative;
-        animation: jaydeep 10s linear infinite;
-    }
 
-    .smoll
-    {
-        height: 10px;
-        width: 10px;
-        /* background-color: red; */
-        background: conic-gradient(blue,blue);
-        border-radius: 50%;
-        position: absolute;
-        top: 0;
-        left: 46%;
-    }
 
-    .y
-    {
-        height: 180px;
-        width: 180px;
-        background-color: black;
-        border-radius: 50%;
-        position: absolute;
-        top: 110px;
-        left: 678px;
-        text-align: center;
-        line-height: 180px;
-        color: white;
-        font-weight: bolder;
-        font-size: 20px;
-    }
+.main1
+{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid red; */
+    margin: 100px auto;
+    position: relative;
 
-    @keyframes jaydeep
-    {
-        from{transform: rotate(0deg);}
-        to{transform: rotate(360deg);}
-    }
-    
+}
+
+        .main
+        {
+            height: 200px;
+            width: 200px;
+            background: conic-gradient(lightblue 0deg,lightblue 180deg,blue);
+            border-radius: 50%;
+            position: absolute;
+            top: 15%;
+            left: 15%;
+            /* transform: translate(-50%,-50%); */
+            animation: jaydeep 2s linear infinite;
+        }
+
+        .black
+        {
+            height: 180px;
+            width: 180px;
+            background: black;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 
+        {
+         color: white;
+         position: absolute;
+         top: 35%;
+         left: 30%;
+        }
+
+        .blue
+        {
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            background: blue;
+            position: absolute;
+            top: 0;
+            left: 93px;
+        }
+
+        @keyframes jaydeep
+        {
+            from{transform: rotate(0deg);}
+            to{transform: rotate(360deg);}
+        }
+
+
     </style>
 </head>
 <body>
-    <div class="x">
-        <div class="smoll">
+    <div class="main1">
+        <div class="main">
+
+            <div class="blue"></div>
+            <div class="black"></div>
 
         </div>
+        <h1>Loading</h1>
+
     </div>
 
-    <div class="y">
-        Loading
-   </div>
+   
 </body>
 </html>
