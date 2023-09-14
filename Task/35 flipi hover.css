@@ -1,0 +1,294 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#z
+{
+    font-size: 13px;
+    padding: 10px 8px;
+}
+
+.main
+{
+    padding: 0px 100px;
+    /* border: 2px solid violet; */
+}
+
+.main h2
+{
+    color: orangered;
+}
+
+.part1 
+{
+    visibility: hidden;
+}
+
+.wom:hover .part1
+{
+    visibility: visible;
+}
+
+.men .part
+{
+    visibility: hidden;
+}
+
+.men:hover .part
+{
+    visibility: visible;
+}
+
+.content
+{
+    /* border: 2px solid  springgreen; */
+    position: relative;
+}
+
+.nav
+{
+    text-align: center;
+}
+
+
+.nav a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.nav li
+{
+    display: inline;
+    padding-right: 150px;
+}
+
+.part
+{
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    position: absolute;
+}
+.part1
+{
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    position: absolute;
+}
+
+.part4
+{
+    /* border: 2px solid red; */
+    box-shadow: 0 0 10px black;
+    padding: 20px;
+}
+
+.fone
+{
+    /* border: 2px solid seagreen; */
+    height: 300px;
+    position: relative;
+}
+
+.fone .img2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img2
+{
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+    transition: .5s;
+}
+
+.fone:hover .img2
+{
+    transform: rotateY(180deg);
+}
+
+.img1
+{
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    transition: .5s;
+}
+
+.fone:hover .img1
+{
+    transform: rotateY(0deg);
+}
+
+.view
+{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    transform: translate(0px,-302px);
+    transition: 2s;
+    visibility: hidden;
+}
+
+.fone:hover .view
+{
+    transform: translate(0px,-52px);
+    background-color: aquamarine;
+    color: black;
+    visibility: visible;
+}
+
+.new
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    background-color: orangered;
+    color: white;
+}
+
+.details
+{
+    background-color: white;
+    /* padding: 20px;   */
+    text-align: center;
+}
+.details h2{
+    padding: 10px 0px;
+    word-spacing: 0px;
+}
+
+.details p{
+    word-spacing: 0px;
+}
+
+button
+{
+    padding: 2px 12px 2px 12px ;
+    background-color: aquamarine;
+    border: none;
+    transition: .5s;
+    margin-top: 10px;
+}
+
+button:hover 
+{
+   outline: 5px solid aquamarine;
+   outline-offset: 3px;
+}
+
+
+button a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+#x
+{
+    font-size: 13px;
+    padding: 10px 8px;
+}
+
+
+@media(max-width:1300px)
+{
+    .part,.part1
+    {
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+
+    .men .part,.wom .part1
+    {
+        padding-top: 40px;
+        margin-left: -40px;
+    }
+
+}
+
+
+
+
+@media(max-width:1100px)
+{
+    .part,.part1
+    {
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+
+    .men .part,.wom .part1
+    {
+        padding-top: 40px;
+        margin-left: -40px;
+    }
+
+}
+
+
+@media(max-width:800px)
+{
+    .part,.part1
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .men .part,.wom .part1
+    {
+        padding-top: 80px;
+        margin-left: -120px;
+    }
+
+    .nav li
+    {
+        display: block;
+        padding-left: 100px;
+    }
+
+}
+
+
+@media(max-width:650px)
+{
+    .part,.part1
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .nav li
+    {
+        display: block;
+        padding-left: 150px;
+    }
+
+    .men .part
+    {
+        padding-top: 103px;
+        margin-left: -65px;
+    }
+
+    .wom .part1
+    {
+        padding-top: 70px;
+        margin-left: -65px;
+    }
+
+    .nav
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
