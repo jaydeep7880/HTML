@@ -1,0 +1,661 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 20fr 80fr;
+}
+
+.award i
+{
+    padding: 0 90px 0 90px ;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.nav li
+{
+    display: inline;
+    padding-left: 30px;
+}
+
+.foll
+{
+    background:url(img/lapinozimg/banner1.jpg);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 100px;
+}
+
+.foll *
+{
+    padding-top: 20px;
+}
+
+.size,.color
+{
+    font-size: 60px;
+}
+
+.color
+{
+    color: yellow;
+}
+
+.size1
+{
+    font-size: 40px;
+}
+
+.search
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nil
+{
+    width: 400px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.jay
+{
+    padding-bottom: 16px;
+    padding-left: 20px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.foll button
+{
+    padding: 20px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: black;
+}
+
+button a
+{
+    color: white;
+}
+
+.foll button:hover
+{
+    background-color: white;
+}
+
+.foll button:hover a 
+{
+    color: black;
+}
+
+
+
+.offer
+{
+    padding: 20px 50px 20px 50px ;
+}
+
+.red
+{
+    color: red;
+}
+
+.offer1
+{
+    display: grid;
+    grid-template-columns: 40fr 40fr 20fr;
+    padding: 10px 0 10px 0 ;
+    gap: 10px;
+}
+
+.one img
+{
+    border-radius: 20px;
+}
+
+.one2 img
+{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+.detail
+{
+    padding: 20px 50px 20px 50px ;
+}
+
+.special
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.story
+{
+    word-spacing: 5px;
+    font-size: 25px;
+}
+
+.cercle
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: url(img/lapinozimg/sanam-kapoor.jpg);
+    background-size: cover;
+}
+
+.clicker
+{
+    padding: 20px 50px 20px 50px ;
+}
+
+.click img
+{
+    border-radius: 20px;
+}
+
+
+.awards
+{
+    padding: 20px 50px 20px 50px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+ 
+}
+
+.la
+{
+    font-size: 35px;
+}
+
+.la1
+{
+    font-size: 25px;
+    padding-top: 40px;
+}
+
+.pizza 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pizza1
+{
+    height: 400px;
+    width: 400px;
+    background:url(img/lapinozimg/lapinonz-pizza-round-image.png);
+    background-size: 100% 100%;
+}
+
+
+.desh
+{
+    padding: 20px 50px 20px 50px ;
+}
+
+.love
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 35px;
+}
+
+.flags
+{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.names
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.quelity
+{
+    padding: 20px 50px 20px 50px ;
+}
+
+.samol
+{
+    height: 50px;
+    width: 50px;
+}
+
+.quelity h2,.samol,.part1,.part2,.part3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.net
+{
+    text-align: center;
+}
+
+.part1,.part2
+{
+    border-right: 1px solid;
+}
+
+.asure
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-shadow: 0 10px 20px;
+}
+
+.explore
+{
+    padding-top: 30px;
+}
+
+.six
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+.cold p
+{
+    text-align: center;
+}
+
+.seller
+{
+    margin-top: 50px;
+    padding: 20px 50px 20px 50px ;
+    background-color: lightgrey;
+}
+
+
+.selles
+{
+    padding-top: 20px;
+    gap: 40px;
+    display: grid;
+    grid-template-columns: 28fr 28fr 28fr 16fr;
+}
+
+.best
+{
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 0 20px;
+}
+
+.best1
+{
+    border-bottom-right-radius: 0px;
+}
+
+
+.link
+{
+    background: url(img/lapinozimg/fling\ pizza.jpeg);
+    background-size: 100% 100%;
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.link1
+{
+    border-top-right-radius: 0px;
+}
+
+
+
+.writte
+{
+    padding: 10px 0 20px 15px ;
+}
+
+
+.newly
+{
+    padding: 20px 50px 20px 50px ;
+}
+
+.col 
+{
+    padding: 20px 0 10px 20px ;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+}
+
+.road
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+.grad
+{
+    background: linear-gradient(to right,white,green);
+    border-radius: 10px;
+}
+
+.grad2
+{
+    background: linear-gradient(to right,white,pink);
+}
+
+.grad3
+{
+    background: linear-gradient(to right,white,yellow);
+}
+
+.grad4
+{
+    background: linear-gradient(to right,white,red);
+}
+
+.lap
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.benner
+{
+    padding-top: 30px;
+}
+
+.happy
+{
+    background-color: maroon;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.benner img
+{
+    border-radius: 20px;
+}
+
+.letter
+{
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+
+.semicolan
+{
+    padding: 20px;
+    background-color: white;
+    word-spacing: 2px;
+    margin: 0 20px 50px 20px;
+}
+
+.semicolan p
+{
+    padding-top: 10px;
+}
+
+.minipart
+{
+    padding: 20px 50px 20px 50px ;
+}
+
+.somepart
+{
+    background-color: white;
+}
+
+.minipart
+{
+    padding: 20px 50px 20px 50px ;
+}
+
+.box,.boxb,.boxc,.boxd,.boxf,.boxg,.boxh,.boxi,.boxj,.boxk,.boxl,.boxm,.boxn,.boxp,.boxr,.boxs,.boxu,.boxv,.boxy,.boxz
+{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.atoz,.atozb,.atozc,.atozd,.atozf,.atozg,.atozh,.atozi,.atozj,.atozk,.atozl,.atozm,.atozn,.atozp,.atozr,.atozs,.atozu,.atozv,.atozy,.atozz
+{
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+}
+
+.boxis li,.boxisb li,.boxisc li,.boxisd li,.boxisf li,.boxisg li,.boxish li,.boxisi li,.boxisj li,.boxisk li,.boxisl li,.boxism li,.boxisn li,.boxisp li,.boxisr li,.boxiss li,.boxisu li,.boxisv li,.boxisy li,.boxisz li
+{
+    display: inline;
+    background-color: wheat;
+    border: 1px solid;
+    padding: 0 20px 0 20px ;
+    border-radius: 3px;
+    line-height: 30px;
+}
+
+.boxis li:hover,.boxisb li:hover,.boxisc li:hover,.boxisd li:hover,.boxisf li:hover,.boxisg li:hover,.boxish li:hover,.boxisi li:hover,.boxisj li:hover,.boxisk li:hover,.boxisl li:hover,.boxism li:hover,.boxisn li:hover,.boxisp li:hover,.boxisr li:hover,.boxiss li:hover,.boxisu li:hover,.boxisv li:hover,.boxisy li:hover,.boxisz li:hover
+{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+.futter
+{
+    padding: 20px 50px 20px 50px ;
+}
+
+.fdetails
+{
+    background-color: green;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.samed
+{
+    padding: 10px;
+    line-height: 25px;
+}
+
+.samed ul 
+{
+    list-style-type: none;
+}
+
+.samed li 
+{
+    display: inline;
+}
+
+.samed a
+{
+    color: white;
+}
+
+.icons
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.case img
+{
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+@media(max-width:500px)
+{
+
+    .header
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .foll
+    {
+        margin-top: 120px;
+    }
+
+    .search
+    {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .nil,.jay
+    {
+        border-radius: 25px;
+    }
+    
+
+    .nav li
+    {
+          display: none;  
+    }
+
+    .offer1
+    {
+        grid-template-columns: 60fr 40fr 0fr;
+    }
+
+    .one1 img
+    {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .special
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .awards
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .love
+    {
+        font-size: 20px;
+    }
+
+    .asure
+    {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+
+    .part1,.part2
+    {
+        border-right: 0px;
+        border-bottom: 1px solid;
+    }
+
+    .six
+    {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .seller
+    {
+        padding-top: 100px;
+        margin-top: 60px;
+    }
+
+    .selles
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .link1
+    {
+        border-top-right-radius: 20px;
+    }
+
+    .road
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .boxis li,.boxisb li,.boxisc li,.boxisd li,.boxisf li,.boxisg li,.boxish li,.boxisi li,.boxisj li,.boxisk li,.boxisl li,.boxism li,.boxisn li,.boxisp li,.boxisr li,.boxiss li,.boxisu li,.boxisv li,.boxisy li,.boxisz li
+    {
+        line-height: 25px;
+    }
+
+    .fdetails
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+}
