@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav
+{
+    background: coral;
+    text-align: center;
+    position: relative;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+li
+{
+    display: inline;
+    padding-right: 100px;
+}
+
+
+.home,.about,.service,.contact
+{
+    position: relative;
+    transition: .05s;
+}
+
+.box
+{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    height: 300px;
+    width: 300px;
+    border: 2px solid blue;
+    display: flex;
+    visibility: hidden;
+}
+
+.home:hover .box,.about:hover .box,.service:hover .box,.contact:hover .box
+{
+    visibility: visible;
+}
+
+.first,.second
+{
+    width: 50%;
+    border: 2px solid black;
+}
+
+
+
+@media(max-width:500px)
+{
+    li
+    {
+        display: block;
+    }
+
+    .box
+    {
+        position: absolute;
+        top: 20px;
+        left: 180px;
+    }
+
+    .home:hover,.about:hover,.service:hover,.contact:hover
+    {
+        padding-bottom: 300px;
+    }
+
+}

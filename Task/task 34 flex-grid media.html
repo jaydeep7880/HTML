@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+         body * {
+            box-sizing: border-box;
+         }
+
+        .a
+        {
+            background-color: coral;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 5px;
+        }
+
+        .c
+        {
+            height: 300px;
+            width: 25%;
+            border: 2px solid red;
+        }
+
+        .c img
+        {
+           object-fit: contain;
+        }
+
+        .l1
+        {
+            background: url(img/pexels-photo-268533.jpeg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            /* background-size: 100% 100%; */
+            background-position: center;
+        }
+
+        @media(max-width:1500px)
+        {
+            .c 
+            {
+              width: 50%;
+            }
+        }
+
+        @media(max-width:1000px)
+        {
+            .c
+            {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+
+        <div class="c">
+            <img src="img/pexels-photo-268533.jpeg" alt="img not found" height="100%" width="100%">
+        </div>
+
+        <div class="c l1"></div>
+
+
+        <div class="c">
+            <img src="img/pexels-photo-268533.jpeg" alt="img not found" height="100%" width="100%">
+        </div>
+
+
+        <div class="c l1"></div>
+
+    </div>
+</body>
+</html>
