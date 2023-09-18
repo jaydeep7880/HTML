@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .color
+        {
+            height: 200px;
+            width: 300px;
+            margin: 200px auto;
+            position: relative;
+        }
+
+        .black
+        {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: black;
+            opacity: .10;
+        }
+
+        .color img
+        {
+            object-fit: cover;
+        }
+
+
+        .black:hover 
+        {
+            opacity: 0;
+        }
+       
+
+    </style>
+</head>
+<body>
+    
+    <div class="color">
+       
+        <img src="img/pexels-photo-268533.jpeg" alt="" height="100%" width="100%">
+
+        <div class="black">
+
+        </div>
+
+    </div>
+
+</body>
+</html>
